@@ -1,0 +1,112 @@
+
+Lista de Exercícios de Programação:
+1. Escreva um programa que leia um número inteiro fornecido pelo usuário, armazenando-o numa variável apropriada.
+Imprima o valor lido. 
+
+2. Escreva um programa que leia um número real fornecido pelo usuário, armazenando-o numa variável apropriada.
+Imprima o valor lido. 
+
+3. Leia um número qualquer fornecido pelo usuário. Determine se o número é maior do que 50, imprimindo uma mensagem
+indicando tal fato. 
+
+4. Leia um número qualquer fornecido pelo usuário. Determine se o número é maior do que 100, imprimindo uma
+mensagem indicando que o "valor é maior que 100" ou uma mensagem indicando que o "valor é menor ou igual a 100". 
+
+5. Dado um número inteiro qualquer, fornecido pelo usuário, descobrir se o mesmo é par ou ímpar. 
+
+6. Escreva um programa que leia dois valores, os quais denominaremos A e B, fornecidos pelo usuário, exibindo respostas
+F ou V para as seguintes questões:
+(a) A é maior que zero?
+(b) B é maior que zero; 
+(c) A E B são maiores do que zero?
+Use operadores lógicos para formular as expressões necessárias a avaliação dos valores. 
+
+7. Escreva um programa que leia dois valores, os quais denominaremos A e B, fornecidos pelo usuário, exibindo respostas 
+F ou V para as seguintes questões: 
+(a) A é igual a zero?
+(b) B é menor que zero; e
+(c) A OU B são maiores do que zero?
+Use operadores lógicos para formular as expressões necessárias a avaliação dos valores. 
+
+8. Leia três números inteiros fornecidos pelo usuário. Descubra qual deles é o maior de todos, imprimindo seu valor. 
+
+9. Leia três números reais fornecidos pelo usuário. Descubra qual deles é o menor de todos, imprimindo seu valor. 
+
+10. Leia três números quaisquer, imprimindo-os em ordem crescente. 
+
+11. Escreva um programa que leia dois números inteiros A e B quaisquer indicando se A é múltiplo de B ou se B é múltiplo
+de A.
+
+12. Escreva um programa capaz de calcular o preço total a ser pago por uma compra de copos plásticos. O usuário deve
+fornecer o número de copos a serem comprados e o programa deve calcular o preço total a ser cobrado, exibindo-o.
+Observe que: se o número de copo é inferior ou igual a 100, o preço por copo é R$0.05; se o número de copos está entre
+101 e 500, o preço por copo é R$0.04; finalmente se o número de copos é superior a 500 o preço por copo é R$0.035. 
+
+13. Dados 3 valores reais representando os lados de um possível triângulo, verifique se os mesmos formam um triângulo (a
+medida de qualquer um de seus lados deve ser menor que a soma das medidas dos lados restantes). Caso seja formado um
+triângulo, descubra também se este triângulo é escaleno (três lados diferentes), isósceles (dois lados iguais) ou eqüilátero
+(três lados iguais). 
+
+14. Escreva um programa que leia 3 notas (valores reais), calculando e exibindo sua média aritmética. Imprima também
+"Aprovado" se a média for maior que 7, "Reprovado" se for menor que 3 e "Exame" se estiver entre 3 e 7. 
+
+15. Escreva um programa que realize as seguintes tarefas:
+a) Efetue a leitura de dois valores inteiros, os quais serão denominados x e y; 
+b) Realize a soma dos valores x e y, exibindo seu resultado; 
+c) Realize o produto dos valores x e y exibindo seu resultado; 
+d) Compare os valores x e y, indicando se "X > Y", "X = Y" e "X < Y" para os casos correspondentes. 
+
+16. Preparar um programa para ler as medidas da base e da altura de um triângulo, calculando e imprimindo sua área,
+sabendo que o cálculo da área é dado por:
+area = (base*altura)/2.
+
+17. Escreva um programa que leia um valor inteiro correspondente a uma quantidade de segundos, convertendo o valor dado
+em horas corridas sabendo que 3600 segundos equivalem a 1 hora, exibindo os valores dado e convertido. Caso o
+usuário forneça um valor negativo, deve ser exibida uma mensagem e a operação de conversão não deve ser efetuada. 
+
+18. Escreva um programa que leia um número inteiro entre 0 e 100 e o exiba por extenso, por exemplos: 16 -> "dezesseis",
+34 -> "trinta e quatro", etc.. 
+
+19. Escreva um programa que leia um número real entre 0.00 e 100.00 e o exiba por extenso como se fosse uma quantia em
+dinheiro, por exemplo: 1.00 -> "um real", .12.73 -> "doze reais e setenta e três centavos". 
+
+20. Escreva um programa que leia um valor real correspondente a uma medida em metros, convertendo o valor dado em pés
+(1 metro = 3.315 pés), exibindo os valores dado e convertido. Caso o usuário forneça um valor negativo, deve ser exibida
+uma mensagem e a operação de conversão não deve ser efetuada. 
+
+21. Faça um algoritmo que, lendo 3 números correspondentes aos coeficientes a, b, e c de uma equação do 2º grau, calcule
+seu DELTA e também as raízes desta equação, imprimindo seus valores. 
+
+22. Considerando um objeto móvel em movimento uniformemente variado, escreva um programa que receba as seguintes
+informações: um valor real indicando posição inicial do móvel P0, um valor real que corresponde a velocidade do móvel
+V, um outro valor real A correspondente a aceleração do móvel e um número inteiro correspondente ao tempo decorrido
+T. O programa deve calcular a posição final PF do móvel, dado pela relação abaixo:
+PF = P0 + V * T + (A * T2 ) / 2
+
+23. Escreva um programa que receba as seguintes informações: um valor real indicando capital inicial PV, um valor real que
+corresponde a taxa de juros da aplicação J e um número inteiro de períodos da aplicação N. O programa deve retornar o
+capital futuro FV dado pela relação abaixo:
+FV = PV * ( 1 + J )N
+
+24. Implementar três programas para exibir a tabuada de um número inteiro entre 1 e 20 dado pelo usuário.
+a) Usando enquanto (while) 
+b) Usando faça-enquanto (do-while) 
+c) Usando para (for)
+ Obs. Caso o valor dado seja inválido o programa deve apenas exibir uma mensagem de aviso. 
+ 
+25. Faça um programa que calcule a soma de N números quaisquer fornecidos pelo usuário. 
+
+26. Escreva um programa que calcule a soma de N números quaisquer fornecidos pelo usuário. O programa deve parar de ler
+e, portanto somar os valores quando for introduzido o número 0 (zero). 
+27. Calcule a média de Notas de alunos. O programa deve parar de ler valores quando for fornecido um valor negativo como
+nota. 
+
+28. Faça um programa que exiba a tabela verdade da operação E-Lógico para todas as combinações de três variáveis lógicas
+A, B e C. Os resultados da tabela devem ser exibidos como F ou V.
+
+29. Faça um programa que exiba a tabela verdade da operação OU-Lógico para todas as combinações de três variáveis
+lógicas A, B e C. Os resultados da tabela devem ser exibidos como F ou V.
+
+30. Escreva um programa que calcule o valor de y = f(x) = a*x + b num intervalo de valores de x, sendo dados pelo usuário
+os coeficientes a e b, bem como os valores do limite inferior e superior do intervalo de x bem como o valor do incremento
+de x. O programa deve exibir resultados como um tabela onde constam os valores de x e y=f(x) lado a lado. 
