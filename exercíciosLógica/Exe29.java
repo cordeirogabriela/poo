@@ -2,7 +2,7 @@ package exerciciosLogica;
 
 import java.util.Scanner;
 
-public class Exe28 {
+public class Exe29 {
 	public void run() {
 		int a, b, c;
 		
