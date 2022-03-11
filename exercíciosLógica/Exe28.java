@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Exe28 {
 	public void run() {
-		Scanner input = new Scanner(System.in);
-		System.out.println("A		B		C		A^B^C");
-		System.out.println("V		V		V		 V	");
-		System.out.println("V		V		F		 F	");
-		System.out.println("V		F		V		 F	");
-		System.out.println("V		F		F		 F	");
-		System.out.println("F		V		V		 F	");
-		System.out.println("F		V		F		 F	");
-		System.out.println("F		F		V		 F	");
-		System.out.println("F		F		F		 F	");
-
+		int a, b, c;
+		
+		System.out.println("A        B         C     A&B&C");
+		
+		for(a = 0; a <= 1; a++){
+			for(b = 0; b <= 1; b++){
+				for(c = 0; c <= 1; c++){
+					System.out.println((a==1) + "	"	+ (b==1) + "	"	+ (c==1) + " 	" + (a==1 && b==1 && c==1));
+				}
+			}
+		}	
 	}
 
 }
